@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+.cont1 ,
+.cont2{
+    width: 30%;
+    height: 90vh;
+    background: url(11_176e3a1c-fdda-4c0b-b5e4-b8c80e38ed50.webp);
+    border-radius: 10px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(20, 67, 220);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius: 50%;
+    margin: 5px;
+}
+.interface{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+        overflow-y: scroll;
+         scrollbar-width: none
+
+}
+.sender{
+    max-width: 60%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.tome{
+    max-width: 50%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.interface .mine{
+    padding: 5px 20px 5px 4px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    margin: 10px 0 10px 0 ;
+    align-self: flex-end;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    display: none;
+   
+}
+
+.received{
+    padding: 5px 20px 5px 4px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: 20px 0 10px 0;
+    align-self: flex-start;
+    width: 100%;
+    overflow-wrap: anywhere;
+    display: none;
+}
+.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+}
+input{
+    width: 80%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px 0 0px 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+button{
+    margin-top: 5px;
+    border-radius: 0px 10px 10px 0;
+    background-color: rgb(14, 231, 79);
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 40px;
+
+}
